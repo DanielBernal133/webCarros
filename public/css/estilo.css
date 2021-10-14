@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  .logo {
+    height: 100px;
+    width: 200px;
+}
+
+body{
+    background-color: #751D7E;
+}
+
+  .login {
+    width: 320px;
+    height: 350px;
+    border: 1px solid #CCC;
+    background-color: white;
+    background-size: cover;
+    margin: 30px auto;
+    border-radius: 20px;
+  }
+  .login .form {
+    width: 100%;
+    height: 100%;
+    padding: 15px 25px;
+  }
+  .login .form h2 {
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  .login .form input {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background: #41198A;
+    border: 1px solid rgba(255,255,255,.1);
+    padding: 0 15px;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .login .form button {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background: #41198A;
+    border: 1px solid rgba(255,255,255,.1);
+    padding: 0 15px;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .login .form select {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background: #41198A;
+    border: 1px solid rgba(255,255,255,.1);
+    padding: 0 15px;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .login .form input:focus {
+    border: 1px solid rgba(255,255,255,.8);
+    outline: none;
+  }
+
+  .login .form button:focus {
+    border: 1px solid rgba(255,255,255,.8);
+    outline: none;
+  }
+
+  .login .form select:focus {
+    border: 1px solid rgba(255,255,255,.8);
+    outline: none;
+  }
+  ::-webkit-input-placeholder {
+      color: #DDD;
+  }
+  .login .form input.submit {
+    background: #41198A;
+    color: white;
+    font-size: 15px;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+
+
+  .form img{
+      height: 100px;
+      padding: 30px 30px;
+      margin: 0 auto;
+  }
+
